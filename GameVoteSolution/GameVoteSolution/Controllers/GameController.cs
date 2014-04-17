@@ -12,7 +12,7 @@ namespace GameVoteSolution.Controllers
 {
     public class GameController : Controller
     {
-        private gamevoteprojectEntities db = new gamevoteprojectEntities();
+        private gamevoteprojectEntities1 db = new gamevoteprojectEntities1();
 
         // GET: /Game/
         public ActionResult Index()
