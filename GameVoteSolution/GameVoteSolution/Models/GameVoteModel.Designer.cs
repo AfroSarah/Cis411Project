@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Channing\Documents\GitHub\cis411-77_homework\homework7\GameVoteSolution\GameVoteSolution\Models\GameVoteModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Channing\Documents\GitHub\Cis411Project\GameVoteSolution\GameVoteSolution\Models\GameVoteModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

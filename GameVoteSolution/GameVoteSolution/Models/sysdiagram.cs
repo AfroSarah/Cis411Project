@@ -12,20 +12,12 @@ namespace GameVoteSolution.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Game
+    public partial class sysdiagram
     {
-        public Game()
-        {
-            this.Votes = new HashSet<Vote>();
-            this.Vote_Listing = new HashSet<Vote_Listing>();
-        }
-    
-        public int gameID { get; set; }
-        public string gameTitle { get; set; }
-        public string gamePic { get; set; }
-        public string gameQuote { get; set; }
-    
-        public virtual ICollection<Vote> Votes { get; set; }
-        public virtual ICollection<Vote_Listing> Vote_Listing { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

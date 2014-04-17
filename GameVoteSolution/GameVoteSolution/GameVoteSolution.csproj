@@ -189,6 +189,9 @@
       <DependentUpon>GameVoteModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>GameVoteModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Vote.cs">
       <DependentUpon>GameVoteModel.tt</DependentUpon>
     </Compile>
@@ -236,13 +239,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Game\Create.cshtml" />
-    <Content Include="Views\Game\Delete.cshtml" />
-    <Content Include="Views\Game\Details.cshtml" />
-    <Content Include="Views\Game\Edit.cshtml" />
-    <Content Include="Views\Game\Index.cshtml">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -268,6 +264,11 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Game\Create.cshtml" />
+    <Content Include="Views\Game\Delete.cshtml" />
+    <Content Include="Views\Game\Details.cshtml" />
+    <Content Include="Views\Game\Edit.cshtml" />
+    <Content Include="Views\Game\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

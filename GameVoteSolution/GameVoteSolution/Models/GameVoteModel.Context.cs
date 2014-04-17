@@ -13,10 +13,10 @@ namespace GameVoteSolution.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class gamevoteprojectEntities : DbContext
+    public partial class gamevoteprojectEntities1 : DbContext
     {
-        public gamevoteprojectEntities()
-            : base("name=gamevoteprojectEntities")
+        public gamevoteprojectEntities1()
+            : base("name=gamevoteprojectEntities1")
         {
         }
     
@@ -29,5 +29,6 @@ namespace GameVoteSolution.Models
         public virtual DbSet<Game> Games { get; set; }
         public virtual DbSet<Vote> Votes { get; set; }
         public virtual DbSet<Vote_Listing> Vote_Listing { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }
