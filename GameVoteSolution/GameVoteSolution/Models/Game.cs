@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Data.Entity;
+
 namespace GameVoteSolution.Models
 {
     using System;
@@ -28,4 +30,6 @@ namespace GameVoteSolution.Models
         public virtual ICollection<Vote> Votes { get; set; }
         public virtual ICollection<Vote_Listing> Vote_Listing { get; set; }
     }
+
+
 }
