@@ -195,7 +195,6 @@ namespace GameVoteSolution.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-
         public ActionResult Index()
         {
             var Db = new ApplicationDbContext();
