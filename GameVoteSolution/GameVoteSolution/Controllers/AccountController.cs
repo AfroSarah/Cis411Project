@@ -123,7 +123,6 @@ namespace GameVoteSolution.Controllers
 
         public ActionResult UserRoles(string id)
         {
-
             var Db = new ApplicationDbContext();
 
             var user = Db.Users.First(u => u.UserName == id);
