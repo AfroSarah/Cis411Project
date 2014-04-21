@@ -78,7 +78,10 @@ namespace GameVoteSolution.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser() { UserName = model.UserName };
+                var user = new ApplicationUser() { 
+            UserName = model.UserName,
+         //   Email = models.identit
+};
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
